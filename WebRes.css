@@ -103,6 +103,7 @@ position ewan, change if naloko na */
     padding-top: 130px;
     z-index: 9999999;
 }
+
 .content2 {
     text-align: center;
     color: white;
@@ -115,20 +116,31 @@ position ewan, change if naloko na */
 }
 
 .contento1 {
+    border-radius: 25px 0px;
     text-align: center;
+    background-color: #474b4f;
     margin: auto;
-    top: 510px;  /*position for the box */
-    padding: 50px;
-    border-radius: 20px;
+    top: 550px;  /*position for the box */
+    padding: 40px;
     position: absolute;
     bottom: 30vh; /* covers the titlep2 */
     left: 50%;
-    width: 35%; 
-    height: 30%;
+    width: 60%; 
+    height: 25%;
     transform: translateX(-50%);  /* box position change if design changes then change lahat */
     z-index: 99; /* index for box placements or designs covers (1 n 0) change if needed*/
     font-size: 18px;
     letter-spacing: 1px;
+}
+
+.a1{
+    color: white;
+}
+
+.filler{
+    margin-top: 100px;
+    height: 222px;
+    background-color: #86c232;
 }
 /* end of p1 home here */
 
@@ -144,7 +156,6 @@ position ewan, change if naloko na */
     text-align: center;
     background-image: url(bg1.png);
     position: relative;
-    bottom: -480px;
     left: 0;
     width: 100%;
     height: 50vh; /*vh changeable incase of some changes */
@@ -166,15 +177,16 @@ position ewan, change if naloko na */
     position: relative;
 }
 
+
 .productcontent{
-    padding-top: 50px;
+    margin-top: -365px;
     padding-bottom: 50px;
 }
 
 /* entirety design of the description for page 2 of product page */
 /* start of table  for page 1 product page */
 .desc1{
-    margin-top: 70px;
+    margin-top: 50px;
     border-collapse: collapse;
     border: solid #222629 3px;
     width: 100%;
@@ -284,7 +296,7 @@ position ewan, change if naloko na */
 }
 
 .p2cvid{
-    margin-top: 90px;
+    margin-top: 10px;
     text-align: center;
     position: relative;
     top: 180px;
